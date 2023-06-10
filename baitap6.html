@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  document.write("<div>");
+  document.write("<div style='text-align: center; width: 50%; float: left'>");
+  document.write("<div style='float: right'>");
+  for (let i = 0; i < 12; i = i + 2) {
+    document.write("<div style=''>");
+    for (let j = 0; j <= i ; j++) {
+      document.write("*&nbsp");
+    }
+    document.write("</div>");
+  }
+  document.write("</div>");
+  document.write("</div>");
+
+  document.write("<div style='text-align: center; width: 50%; float: right'>");
+  document.write("<div style='float: left'>");
+  for (let i = 0; i < 12; i = i + 2) {
+    document.write("<div style=''>");
+    for (let j = 0; j <= i ; j++) {
+      document.write("*&nbsp");
+    }
+    document.write("</div>");
+  }
+  document.write("</div>");
+  document.write("</div>");
+  document.write("</div>");
+
+  for (let i = 21; i > 0; i = i - 2) {
+    document.write("<div style='text-align: center'>");
+    for (let j = i; j > 0 ; j--) {
+      document.write("*&nbsp");
+    }
+    document.write("</div>");
+  }
+
+</script>
+</body>
+</html>
